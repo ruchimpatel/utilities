@@ -1,0 +1,20 @@
+
+.nav-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: -webkit-fill-available;
+    background-color:  #9c27b0;
+    height: 60px;
+
+    .header{
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        flex: auto;
+        font-style: italic ;
+    }
+}
+

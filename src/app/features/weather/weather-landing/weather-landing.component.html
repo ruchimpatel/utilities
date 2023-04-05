@@ -1,0 +1,35 @@
+<div class="weather">
+<mat-card class="weather-card">
+  <mat-card-header >
+    <mat-card-title-group class="weather-card-title">
+      <mat-card-title>{{weatherData.location.name}}</mat-card-title>
+      <mat-card-subtitle>{{weatherData.location.region}},{{weatherData.location.country}}</mat-card-subtitle>
+    </mat-card-title-group>
+  </mat-card-header>
+  <mat-card-content>
+    <div  class="weather-card-body">
+    <div class="weather-card-body-child-1">
+        <img src="{{weather.image_day}}" class="weather-img">
+        <p class="text-center weather-text">{{weatherData.current.condition.text}}</p>
+    </div>
+    <div class="weather-card-body-child-2">
+      <p class="font-size-larger">{{weatherData.current.temp_c}}&#176;C</p>
+    </div>
+    <div class="weather-card-body-child-3">
+        <p>Wind: {{weatherData.current.wind_kph}} kmph<br>
+        Precip: {{weatherData.current.precip_mm}} mm<br>
+        Pressure: {{weatherData.current.pressure_mb}} mb</p>
+    </div>
+  </div>
+  <div class="weather-card-footer">
+    <div class="weather-day" *ngFor="let forecast of forecast">
+        <div>
+          <div style="margin-top: 5px;">{{forecast.day}}</div>
+          <img src="{{forecast.image}}">
+          <div class="text-center" style="margin-top: 5px;">{{forecast.forecastDay.avgtemp_c}}&#176;C</div>
+        </div>
+    </div>
+  </div>
+  </mat-card-content>
+</mat-card>
+</div>

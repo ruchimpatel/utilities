@@ -1,0 +1,15 @@
+.mat-flex-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+.util-card {
+    margin: 10px;
+    width: 400px;
+
+    :hover{
+      cursor: pointer;
+    }
+  }
+
