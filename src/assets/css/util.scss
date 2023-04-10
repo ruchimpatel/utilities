@@ -1,3 +1,18 @@
+@mixin margin-classes {
+    @for $i from 1 through 20 {
+       $margin: $i * 1px;
+      /* margin #{$margin} */
+      .margin-#{$i}  {margin: $margin;}
+      .margin-left-#{$i} {margin-left: $margin;}
+      .margin-right-#{$i} {margin-right: $margin;}
+      .margin-top-#{$i} {margin-top: $margin;}
+      .margin-bottom-#{$i} {margin-bottom: $margin;}
+      .mx-#{$i} {margin-left: $margin; margin-right: $margin;}
+      .my-#{$i} {margin-top: $margin; margin-bottom: $margin;}
+    }
+  }
+  @include margin-classes;
+
 .center{
     align-items: center;
     justify-content: center;

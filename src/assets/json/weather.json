@@ -4,8 +4,8 @@
       "day": "Sunny",
       "night": "Clear",
       "icon": 113,
-      "image_day": "assets/images/weather-animation/day.svg",
-      "image_night": "assets/images/weather-animation/night.svg",
+      "image_day": "assets/images/weather-animation/clear-day.svg",
+      "image_night": "assets/images/weather-animation/clear-night.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -248,8 +248,8 @@
       "day": "Partly Cloudy",
       "night": "Partly Cloudy",
       "icon": 116,
-      "image_day": "assets/images/weather-animation/cloudy-day-1.svg",
-      "image_night": "assets/images/weather-animation/cloudy-night-1.svg",
+      "image_day": "assets/images/weather-animation/partly-cloudy-day.svg",
+      "image_night": "assets/images/weather-animation/partly-cloudy-night.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -736,8 +736,8 @@
       "day": "Overcast",
       "night": "Overcast",
       "icon": 122,
-      "image_day": "assets/images/weather-animation/cloudy.svg",
-      "image_night": "assets/images/weather-animation/cloudy.svg",
+      "image_day": "assets/images/weather-animation/overcast-day.svg",
+      "image_night": "assets/images/weather-animation/overcast-night.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -1224,8 +1224,8 @@
       "day": "Patchy rain nearby",
       "night": "Patchy rain nearby",
       "icon": 176,
-      "image_day": "assets/images/weather-animation/rainy-2.svg",
-      "image_night": "assets/images/weather-animation/rainy-4.svg",
+      "image_day": "assets/images/weather-animation/partly-cloudy-day-rain.svg",
+      "image_night": "assets/images/weather-animation/partly-cloudy-night-rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -1468,8 +1468,8 @@
       "day": "Patchy snow nearby",
       "night": "Patchy snow nearby",
       "icon": 179,
-      "image_day": "assets/images/weather-animation/snowy-2.svg",
-      "image_night": "assets/images/weather-animation/snowy-4.svg",
+      "image_day": "assets/images/weather-animation/partly-cloudy-day-snow.svg",
+      "image_night": "assets/images/weather-animation/partly-cloudy-night-snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -1712,6 +1712,8 @@
       "day": "Patchy sleet nearby",
       "night": "Patchy sleet nearby",
       "icon": 182,
+      "image_day": "assets/images/weather-animation/partly-cloudy-day-sleet.svg",
+      "image_night": "assets/images/weather-animation/partly-cloudy-night-sleet.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -1954,6 +1956,8 @@
       "day": "Patchy freezing drizzle nearby",
       "night": "Patchy freezing drizzle nearby",
       "icon": 185,
+      "image_day": "assets/images/weather-animation/partly-cloudy-day-drizzle.svg",
+      "image_night": "assets/images/weather-animation/partly-cloudy-night-drizzle.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -2440,8 +2444,8 @@
       "day": "Blowing snow",
       "night": "Blowing snow",
       "icon": 227,
-      "image_day": "assets/images/weather-animation/snowy-6.svg",
-      "image_night": "assets/images/weather-animation/snowy-6.svg",
+      "image_day": "assets/images/weather-animation/snow.svg",
+      "image_night": "assets/images/weather-animation/snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -2684,6 +2688,8 @@
       "day": "Blizzard",
       "night": "Blizzard",
       "icon": 230,
+      "image_day": "assets/images/weather-animation/wind-snow.svg",
+      "image_night": "assets/images/weather-animation/wind-snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -2926,8 +2932,8 @@
       "day": "Fog",
       "night": "Fog",
       "icon": 248,
-      "image_day": "assets/images/weather-animation/mist.svg",
-      "image_night": "assets/images/weather-animation/mist.svg",
+      "image_day": "assets/images/weather-animation/fog-day.svg",
+      "image_night": "assets/images/weather-animation/fog-night.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -3170,6 +3176,8 @@
       "day": "Freezing fog",
       "night": "Freezing fog",
       "icon": 260,
+      "image_day": "assets/images/weather-animation/fog.svg",
+      "image_night": "assets/images/weather-animation/fog.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -3900,6 +3908,8 @@
       "day": "Freezing drizzle",
       "night": "Freezing drizzle",
       "icon": 281,
+      "image_day": "assets/images/weather-animation/drizzle.svg",
+      "image_night": "assets/images/weather-animation/drizzle.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -4142,6 +4152,8 @@
       "day": "Heavy freezing drizzle",
       "night": "Heavy freezing drizzle",
       "icon": 284,
+      "image_day": "assets/images/weather-animation/extreme-drizzle.svg",
+      "image_night": "assets/images/weather-animation/extreme-drizzle.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -4384,8 +4396,8 @@
       "day": "Patchy light rain",
       "night": "Patchy light rain",
       "icon": 293,
-      "image_day": "assets/images/weather-animation/rainy-5.svg",
-      "image_night": "assets/images/weather-animation/rainy-5.svg",
+      "image_day": "assets/images/weather-animation/rain.svg",
+      "image_night": "assets/images/weather-animation/rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -4628,8 +4640,8 @@
       "day": "Light rain",
       "night": "Light rain",
       "icon": 296,
-      "image_day": "assets/images/weather-animation/rainy-5.svg",
-      "image_night": "assets/images/weather-animation/rainy-5.svg",
+      "image_day": "assets/images/weather-animation/rain.svg",
+      "image_night": "assets/images/weather-animation/rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -4872,8 +4884,8 @@
       "day": "Moderate rain at times",
       "night": "Moderate rain at times",
       "icon": 299,
-      "image_day": "assets/images/weather-animation/rainy-5.svg",
-      "image_night": "assets/images/weather-animation/rainy-5.svg",
+      "image_day": "assets/images/weather-animation/rain.svg",
+      "image_night": "assets/images/weather-animation/rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -5116,8 +5128,8 @@
       "day": "Moderate rain",
       "night": "Moderate rain",
       "icon": 302,
-      "image_day": "assets/images/weather-animation/rainy-6.svg",
-      "image_night": "assets/images/weather-animation/rainy-6.svg",
+      "image_day": "assets/images/weather-animation/rain.svg",
+      "image_night": "assets/images/weather-animation/rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -5360,8 +5372,8 @@
       "day": "Heavy rain at times",
       "night": "Heavy rain at times",
       "icon": 305,
-      "image_day": "assets/images/weather-animation/rainy-6.svg",
-      "image_night": "assets/images/weather-animation/rainy-6.svg",
+      "image_day": "assets/images/weather-animation/extreme-rain.svg",
+      "image_night": "assets/images/weather-animation/extreme-rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -5604,8 +5616,8 @@
       "day": "Heavy rain",
       "night": "Heavy rain",
       "icon": 308,
-      "image_day": "assets/images/weather-animation/rainy-6.svg",
-      "image_night": "assets/images/weather-animation/rainy-6.svg",
+      "image_day": "assets/images/weather-animation/extreme-rain.svg",
+      "image_night": "assets/images/weather-animation/extreme-rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -5848,6 +5860,8 @@
       "day": "Light freezing rain",
       "night": "Light freezing rain",
       "icon": 311,
+      "image_day": "assets/images/weather-animation/rain.svg",
+      "image_night": "assets/images/weather-animation/rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -6090,6 +6104,8 @@
       "day": "Moderate or heavy freezing rain",
       "night": "Moderate or heavy freezing rain",
       "icon": 314,
+      "image_day": "assets/images/weather-animation/rain.svg",
+      "image_night": "assets/images/weather-animation/rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -6332,6 +6348,8 @@
       "day": "Light sleet",
       "night": "Light sleet",
       "icon": 317,
+      "image_day": "assets/images/weather-animation/sleet.svg",
+      "image_night": "assets/images/weather-animation/sleet.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -6574,6 +6592,8 @@
       "day": "Moderate or heavy sleet",
       "night": "Moderate or heavy sleet",
       "icon": 320,
+      "image_day": "assets/images/weather-animation/extreme-sleet.svg",
+      "image_night": "assets/images/weather-animation/extreme-sleet.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -6816,8 +6836,8 @@
       "day": "Patchy light snow",
       "night": "Patchy light snow",
       "icon": 323,
-      "image_day": "assets/images/weather-animation/snowy-4.svg",
-      "image_night": "assets/images/weather-animation/snowy-4.svg",
+      "image_day": "assets/images/weather-animation/snow.svg",
+      "image_night": "assets/images/weather-animation/snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -7060,8 +7080,8 @@
       "day": "Light snow",
       "night": "Light snow",
       "icon": 326,
-      "image_day": "assets/images/weather-animation/snowy-5.svg",
-      "image_night": "assets/images/weather-animation/snowy-5.svg",
+      "image_day": "assets/images/weather-animation/snow.svg",
+      "image_night": "assets/images/weather-animation/snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -7304,8 +7324,8 @@
       "day": "Patchy moderate snow",
       "night": "Patchy moderate snow",
       "icon": 329,
-      "image_day": "assets/images/weather-animation/snowy-5.svg",
-      "image_night": "assets/images/weather-animation/snowy-5.svg",
+      "image_day": "assets/images/weather-animation/snow.svg",
+      "image_night": "assets/images/weather-animation/snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -7548,8 +7568,8 @@
       "day": "Moderate snow",
       "night": "Moderate snow",
       "icon": 332,
-      "image_day": "assets/images/weather-animation/snowy-5.svg",
-      "image_night": "assets/images/weather-animation/snowy-5.svg",
+      "image_day": "assets/images/weather-animation/snow.svg",
+      "image_night": "assets/images/weather-animation/snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -7792,8 +7812,8 @@
       "day": "Patchy heavy snow",
       "night": "Patchy heavy snow",
       "icon": 335,
-      "image_day": "assets/images/weather-animation/snowy-6.svg",
-      "image_night": "assets/images/weather-animation/snowy-6.svg",
+      "image_day": "assets/images/weather-animation/extreme-snow.svg",
+      "image_night": "assets/images/weather-animation/extreme-snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -8036,8 +8056,8 @@
       "day": "Heavy snow",
       "night": "Heavy snow",
       "icon": 338,
-      "image_day": "assets/images/weather-animation/snowy-6.svg",
-      "image_night": "assets/images/weather-animation/snowy-6.svg",
+      "image_day": "assets/images/weather-animation/extreme-snow.svg",
+      "image_night": "assets/images/weather-animation/extreme-snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -8522,8 +8542,8 @@
       "day": "Light rain shower",
       "night": "Light rain shower",
       "icon": 353,
-      "image_day": "assets/images/weather-animation/rainy-4.svg",
-      "image_night": "assets/images/weather-animation/rainy-4.svg",
+      "image_day": "assets/images/weather-animation/rain.svg",
+      "image_night": "assets/images/weather-animation/rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -8766,8 +8786,8 @@
       "day": "Moderate or heavy rain shower",
       "night": "Moderate or heavy rain shower",
       "icon": 356,
-      "image_day": "assets/images/weather-animation/rainy-5.svg",
-      "image_night": "assets/images/weather-animation/rainy-5.svg",
+      "image_day": "assets/images/weather-animation/extreme-rain.svg",
+      "image_night": "assets/images/weather-animation/extreme-rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -9010,8 +9030,8 @@
       "day": "Torrential rain shower",
       "night": "Torrential rain shower",
       "icon": 359,
-      "image_day": "assets/images/weather-animation/rainy-6.svg",
-      "image_night": "assets/images/weather-animation/rainy-6.svg",
+      "image_day": "assets/images/weather-animation/extreme-rain.svg",
+      "image_night": "assets/images/weather-animation/extreme-rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -9254,6 +9274,8 @@
       "day": "Light sleet showers",
       "night": "Light sleet showers",
       "icon": 362,
+      "image_day": "assets/images/weather-animation/sleet.svg",
+      "image_night": "assets/images/weather-animation/sleet.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -9496,6 +9518,8 @@
       "day": "Moderate or heavy sleet showers",
       "night": "Moderate or heavy sleet showers",
       "icon": 365,
+      "image_day": "assets/images/weather-animation/extreme-sleet.svg",
+      "image_night": "assets/images/weather-animation/extreme-sleet.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -9738,8 +9762,8 @@
       "day": "Light snow showers",
       "night": "Light snow showers",
       "icon": 368,
-      "image_day": "assets/images/weather-animation/snowy-4.svg",
-      "image_night": "assets/images/weather-animation/snowy-4.svg",
+      "image_day": "assets/images/weather-animation/snow.svg",
+      "image_night": "assets/images/weather-animation/snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -9982,8 +10006,8 @@
       "day": "Moderate or heavy snow showers",
       "night": "Moderate or heavy snow showers",
       "icon": 371,
-      "image_day": "assets/images/weather-animation/snowy-6.svg",
-      "image_night": "assets/images/weather-animation/snowy-6.svg",
+      "image_day": "assets/images/weather-animation/extreme-snow.svg",
+      "image_night": "assets/images/weather-animation/extreme-snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -10710,6 +10734,8 @@
       "day": "Patchy light rain in area with thunder",
       "night": "Patchy light rain in area with thunder",
       "icon": 386,
+      "image_day": "assets/images/weather-animation/thunderstorms-day-rain.svg",
+      "image_night": "assets/images/weather-animation/thunderstorms-night-rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -10952,6 +10978,8 @@
       "day": "Moderate or heavy rain in area with thunder",
       "night": "Moderate or heavy rain in area with thunder",
       "icon": 389,
+      "image_day": "assets/images/weather-animation/thunderstorms-extreme-rain.svg",
+      "image_night": "assets/images/weather-animation/thunderstorms-extreme-rain.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -11194,6 +11222,8 @@
       "day": "Patchy light snow in area with thunder",
       "night": "Patchy light snow in area with thunder",
       "icon": 392,
+      "image_day": "assets/images/weather-animation/thunderstorms-day-snow.svg",
+      "image_night": "assets/images/weather-animation/thunderstorms-night-snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",
@@ -11436,6 +11466,8 @@
       "day": "Moderate or heavy snow in area with thunder",
       "night": "Moderate or heavy snow in area with thunder",
       "icon": 395,
+      "image_day": "assets/images/weather-animation/thunderstorms-extreme-snow.svg",
+      "image_night": "assets/images/weather-animation/thunderstorms-extreme-snow.svg",
       "languages": [
         {
           "lang_name": "Arabic",

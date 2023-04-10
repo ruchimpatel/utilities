@@ -29,6 +29,7 @@ export class WeatherLandingComponent implements OnInit {
   public weatherCode: Weathercode[] = [] as Weathercode[];
   public weather : Weathercode = {} as Weathercode;
   public forecast : {day: string, forecastDay: Day, image: string}[] = [] as {day: string, forecastDay: Day, image: string}[]; 
+  public city : string = '';
 
   constructor(private http: HttpClient,private weatherService: WeatherService) {}
 
@@ -47,37 +48,43 @@ export class WeatherLandingComponent implements OnInit {
       next:(locationData) => {
         const location = locationData as CurrentLocation;
         const currentLocation = location.lat + ',' + location.lon;
-        this.weatherService.getWeatherForecast(currentLocation).subscribe({
-          next: (result) => {
-            this.weatherData = result as Weather;
-            console.log(this.weatherData);
-            const weatherArray  = this.weatherCode.filter( (weather : Weathercode) => {
-              return (weather.code === this.weatherData.current.condition.code)
-            });
-            this.weather = weatherArray[0];
-            console.log(this.weather);
-    
-            let days = [ 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' , 'Sun'];
-            for(let forecastday  of this.weatherData.forecast.forecastday){
-              const d = new Date(forecastday.date);
-              const day_no = d.getDay();
-              console.log("Day No : "+ day_no);
-              const day = days[day_no];
-              const conditionArray = this.weatherCode.filter( (weather : Weathercode) => {
-                return (weather.code === forecastday.day.condition.code);
-              });
-              this.forecast.push({day: day, forecastDay: forecastday.day , image : conditionArray[0].image_day});
-    
-            }
-          },error: (error) => {
-            console.log(error);
-          }
-        });
+        this.getWethearForecast(currentLocation);
 
       },error: (error) => {
         console.log(error);
       }
     })
     
+  }
+
+  getWethearForecast(location: string){
+    console.log("Location : "+ location);
+    this.weatherService.getWeatherForecast(location).subscribe({
+      next: (result) => {
+        this.weatherData = result as Weather;
+        console.log(this.weatherData);
+        const weatherArray  = this.weatherCode.filter( (weather : Weathercode) => {
+          return (weather.code === this.weatherData.current.condition.code)
+        });
+        this.weather = weatherArray[0];
+        this.forecast = [] as {day: string, forecastDay: Day, image: string}[];
+        let days = [ 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' , 'Sun'];
+        for(let forecastday  of this.weatherData.forecast.forecastday){
+          const d = new Date(forecastday.date);
+          const day_no = d.getDay();
+          console.log("Day No : "+ day_no);
+          const day = days[day_no];
+          const conditionArray = this.weatherCode.filter( (weather : Weathercode) => {
+            return (weather.code === forecastday.day.condition.code);
+          });
+          
+          this.forecast.push({day: day, forecastDay: forecastday.day , image : conditionArray[0].image_day});
+
+        }
+      },error: (error) => {
+        console.log(error);
+      }
+    });
+
   }
 }

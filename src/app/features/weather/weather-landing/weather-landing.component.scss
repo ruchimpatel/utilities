@@ -36,16 +36,17 @@
 
 .weather-card-body-child-2 {
   flex: 20%;
-  align-items: left;
-  justify-content: left;
-  text-align: left;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .weather-img {
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 137px;
+  width: 85px;
+  height: 85px;
+  margin-left: 35px;
 }
 
 .weather-card-body-child-3 {
@@ -53,10 +54,11 @@
   align-items: center;
   justify-content: center;
   text-align: left;
+  margin-left : 2%;
 }
 
 .weather-text {
-  margin-top: -40px;
+  margin-top: -10px;
   margin-left: -25px;
 }
 
@@ -69,6 +71,10 @@
     text-align: center;
   }
 
-  .weather-day {
-    width: -webkit-fill-available;
-  }
+.weather-day {
+  width: -webkit-fill-available;
+}
+
+.weather-day-img {
+    width: 75px;
+}
